@@ -1,2 +1,3 @@
 # Tetris-Implemenation
-A terminal Implementation of Tetris in Java
+A terminal Implementation of Tetris in C++
+
