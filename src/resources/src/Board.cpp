@@ -6,7 +6,7 @@
 /**
  * Generates a tree of block.
  */
-class block {
+class Board {
     public:
         // Constructor
         block();
@@ -16,6 +16,5 @@ class block {
         };
 
     private:
-        int m_value;
-        std::string m_name;
+        std::vector<std::vector<int>> const BOARD;
 };
