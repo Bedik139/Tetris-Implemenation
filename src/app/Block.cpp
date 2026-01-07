@@ -9,7 +9,7 @@
 class Block {
     public:
         // Constructor
-        block();
+        Block();
 
         void generate(){
 

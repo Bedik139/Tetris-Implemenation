@@ -13,7 +13,8 @@ class TetrisApp {
         TetrisApp();
 
         void run(){
-
+            std::cout << "Running Tetris Application..." << std::endl;
+            std::cout << "Welcome to Tetris!" << std::endl;
         };
 
     private:

@@ -10,7 +10,7 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
             "intelliSenseMode": "macos-gcc-x64"
         }
     ],

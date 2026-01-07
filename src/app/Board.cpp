@@ -9,7 +9,7 @@
 class Board {
     public:
         // Constructor
-        block();
+        Board();
 
         void generate(){
 
