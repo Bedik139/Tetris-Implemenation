@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(winget install:*)",
+      "Bash(winget search:*)",
+      "Bash(\"C:\\\\Users\\\\Benedict\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\bin\\\\g++.exe\" --version)",
+      "Bash(if not exist \"build\" mkdir build)",
+      "Bash(\"C:\\\\Users\\\\Benedict\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\\\mingw64\\\\bin\\\\g++.exe\" -std=c++17 -Wall -Wextra src/main.cpp src/Model/Tetromino.cpp src/Model/Board.cpp src/Model/Game.cpp src/View/Renderer.cpp src/Controller/InputHandler.cpp src/Controller/GameController.cpp -I include -o build/Tetris.exe)",
+      "Bash(C:/Users/Benedict/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/g++.exe -std=c++17 -Wall -Wextra src/main.cpp src/Model/Tetromino.cpp src/Model/Board.cpp src/Model/Game.cpp src/View/Renderer.cpp src/Controller/InputHandler.cpp src/Controller/GameController.cpp -I include -o build/Tetris.exe)"
+    ]
+  }
+}
